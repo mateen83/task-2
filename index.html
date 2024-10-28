@@ -1,0 +1,516 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refactored Hero Section</title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/query.css"> -->
+</head>
+
+<body>
+    <!-- Header Section -->
+     <div class="wrapper">
+        <!-- container -->
+         <header class="main-header container " >
+             <nav class="navbar ">
+                 <!-- Brand with Clone Icon -->
+                 <a href="index.html" class="navbar-brand">
+                 <i class="fa-solid fa-clone" id="clone-icon"></i>Topic
+                    </a>
+                    
+
+            <div class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#browse" class="nav-link">STREAM TOPICS</a></li>
+                    <li class="nav-item"><a href="#how" class="nav-link">HOW IT WORK</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#page" class="nav-link dropdown-toggle">
+                            PAGES <i class="fas fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="topic-listing.html" class="dropdown-item">Topic Listing</a></li>
+                            <li><a href="contact.html" class="dropdown-item">Contact Form</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- User Icon -->
+            <div class="user-icon">
+                <i class="far fa-user"></i>
+
+              
+            </div>
+            <i class="fa-solid fa-bars" id="menu"></i> 
+            <i class="fa-solid fa-xmark"id="close"></i>
+           
+      
+       
+          </div>
+          
+        </nav>
+       
+    </header>
+  <!-- for mobl -->
+    <div class="menu-container" id="mainMenu">
+        <ul class="menu-list">
+            <li class="menu-item active"><a href="#index.html" class="menu-link">HOME</a></li>
+            <li class="menu-item"><a href="#browse" class="menu-link">STREAM TOPICS</a></li>
+            <li class="menu-item"><a href="#how" class="menu-link">HOW IT WORK</a></li>
+            <li class="menu-item"><a href="#faq" class="menu-link">FAQ</a></li>
+            <!-- <li class="menu-item"><a href="#section5" class="menu-link">CONTACT</a></li> -->
+            <li class="menu-item dropdown">
+                <a href="#page" class="menu-link dropdown-toggle">
+                    PAGES <i class="fas fa-angle-down"></i>
+                </a>
+              
+            </li>
+            <li class="menu-item"><a href="#contact" class="menu-link">CONTACT</a></li>
+        </ul>
+    </div>
+    
+
+
+
+
+    <section class="hero-section  " id="page">
+        <!-- container -->
+         <div class="container">
+        <div class="hero-container ">
+
+
+            <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+            <h6 class="text-center">Platform for creatives around the world</h6>
+
+
+            <div class="search">
+                
+               
+
+
+
+
+
+
+
+                <form method="get" class="search-form" role="search">
+                    <div class="search-group">
+                        <span class="search-icon" id="icon-addon1"></span>
+                        <input name="keyword" type="search" class="search-input" id="keyword" placeholder="Design, Code, Marketing, Finance..." aria-label="Search">
+                        <button type="submit" class="search-btn">Search</button>
+                    </div>
+                </form>
+                
+            </div>
+           
+        </div>
+           
+    </div>
+
+    </section>
+    
+
+
+
+<section class="section-1" >
+    <div class="main-flex-1 container" >
+        <!-- Box 1: Web Design Content -->
+        <div class="box-1">
+            <div class="box-content">
+                <div class="box-header">
+                    <h5>Web Design</h5> 
+                    <span class="badge">14</span>
+                </div>
+                <p class="box-p">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                <img src="images/undraw_Remote_design_team_re_urdx.png" alt="Design Team">
+            </div>
+        </div>
+
+        
+                <!-- Box 2: Finance Content -->
+                <div class="box-2">
+                    <div class="box-content">
+                        <div class="box-header">
+                            <h5>Finance</h5> 
+                            <span class="badge">24</span>
+                        </div>
+                        <p class="box-p">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                        <button>Learn More</button>
+        
+                        <!-- Left Side (Social Icons) -->
+                        <div class="social-icons">
+                            <p>Share:</p>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+        
+                            <!-- Right Side (Bookmark Icon) -->
+                            <div class="bookmark-icon">
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+<!--  section-2 -->
+<section class="topics-section container" >
+    <!-- Section Header -->
+    <div class="topics-header" id="browse">
+      <h2>Browse Topics</h2>
+    </div>
+  
+    <!-- Topics Links -->
+    <div class="topics-links">
+      <a href="#" class="topic-link" id="topic-link">Design</a>
+      <a href="#" class="topic-link">Marketing</a>
+      <a href="#" class="topic-link">Finance</a>
+      <a href="#" class="topic-link">Music</a>
+      <a href="#" class="topic-link" id="topic-link">Education</a>
+    </div>
+  
+    <!-- Image and Content Cards -->
+    <div class="topics-grid">
+      <!-- Card 1 -->
+      <div class="topic-card">
+        <div class="topic-card-content">
+          <div class="topic-card-header">
+            <h5>Web Design</h5>
+            <span class="topic-badge">14</span>
+          </div>
+          <p class="topic-description">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+          <img src="images/undraw_Remote_design_team_re_urdx.png" alt="Design Team" class="topic-image">
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="topic-card">
+        <div class="topic-card-content">
+          <div class="topic-card-header">
+            <h5>Marketing</h5>
+            <span class="topic-badge">22</span>
+          </div>
+          <p class="topic-description">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+          <img src="images/undraw_Remote_design_team_re_urdx.png" alt="Design Team" class="topic-image">
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="topic-card">
+        <div class="topic-card-content">
+          <div class="topic-card-header">
+            <h5>Finance</h5>
+            <span class="topic-badge">30</span>
+          </div>
+          <p class="topic-description">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+          <img src="images/undraw_Remote_design_team_re_urdx.png" alt="Design Team" class="topic-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- section-3 -->
+
+
+  <section class="section-3" id="how">
+   <div class="container">
+<div class="sec-3-heading"><h2>How does it work?</h2></div>
+
+
+<div class="sec-3-big-main">
+    
+<div class="main">
+<div class="sec-3-icon">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</div>
+<div class="sec-3-txt-head">
+<h3>Search your favourite topic</h3>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis odit delectus labore molestias mollitia earum nemo alias voluptate corrupti quae asperiores dolores, doloribus aspernatur eaque impedit exercitationem provident sed adipisci.
+</p>
+</div>
+</div>
+<div class="main">
+    <div class="sec-3-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="sec-3-txt-head">
+    <h3>Search your favourite topic</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis odit delectus labore molestias mollitia earum nemo alias voluptate corrupti quae asperiores dolores, doloribus aspernatur eaque impedit exercitationem provident sed adipisci.
+    </p>
+    </div>
+    </div>
+    <div class="main">
+        <div class="sec-3-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="sec-3-txt-head">
+        <h3>Search your favourite topic</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis odit delectus labore molestias mollitia earum nemo alias voluptate corrupti quae asperiores dolores, doloribus aspernatur eaque impedit exercitationem provident sed adipisci.
+        </p>
+        </div>
+        </div>
+    </div>
+
+<div class="sec-3-btn-txt">
+<p >Want to learn more? </p> 
+<a  href="">Check out youtube</a>
+</div>
+
+
+
+</div>
+
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+<section class="section-4" id="faq">
+    <div class="container">
+        <div class="sec-4-heading">
+            <h1>Frequently Asked <br> Questions</h1>
+        </div>
+
+        <div class="sec-4-flex">
+            <div class="sec-4-img">
+                <img src="images/faq_graphic.jpg" alt="FAQ Graphic">
+            </div>
+
+            <div class="sec-4-accordion-flex">
+                <!-- Accordion 1 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>What is topic listing?</h3>
+                        <i class="fa-solid fa-chevron-down arrow down-arrow"></i>
+                        <i class="fa-solid fa-chevron-up arrow up-arrow"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Topic Listing is a free Bootstrap 5 CSS template. You are not allowed to redistribute this template on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 2 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>What is topic listing?</h3>
+                        <i class="fa-solid fa-chevron-down arrow down-arrow"></i>
+                        <i class="fa-solid fa-chevron-up arrow up-arrow"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Topic Listing is a free Bootstrap 5 CSS template. You are not allowed to redistribute this template on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Accordion 3 -->
+                <div class="accordion">
+                    <div class="accordion-header">
+                        <h3>What is topic listing?</h3>
+                        <i class="fa-solid fa-chevron-down arrow down-arrow"></i>
+                        <i class="fa-solid fa-chevron-up arrow up-arrow"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>
+                            Topic Listing is a free Bootstrap 5 CSS template. You are not allowed to redistribute this template on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="section-5" id="contact">
+    <div class="container">
+      <div class="sec-5-heading">
+        <h1>Get in touch</h1>
+      </div>
+  
+      <div class="sec-5-flex">
+        <!-- Map Section -->
+        <div class="for-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=PLACE_EMBED_LINK_HERE"
+            allowfullscreen=""
+            loading="lazy"
+            frameborder="0"
+          ></iframe>
+        </div>
+  
+        <!-- Contact-1 Section -->
+        <div class="contact-1">
+          <h3>Head office</h3>
+          <p>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
+          <hr>
+          <p>Phone: <a href="tel:305-240-9671" class="a-font">305-240-9671</a></p>
+          <p>Email: <a href="mailto:info@company.com" class="a-font">info@company.com</a></p>
+        </div>
+  
+        <!-- Contact-2 Section -->
+        <div class="contact-2">
+          <h3>Dubai office</h3>
+          <p>Burj Park, Downtown, Dubai, United Arab Emirates</p>
+          <hr>
+          <p>Phone: <a href="tel:110-220-3400" class="a-font">110-220-3400</a></p>
+          <p>Email: <a href="mailto:info@company.com" class="a-font">info@company.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+
+
+
+
+
+    <footer class="footer ">
+        <!-- container  -->
+        <div class="footer-container container">
+            <div class="footer-grid">
+                <!-- Column 1: Logo -->
+                <div class="footer-column logo-column fotr-col ">
+                    <a href="index.html" class="navbar-brnd">
+                        <i id="clone-icn" class="fas fa-clone"></i> Topic
+                    </a>
+
+                    
+                </div>
+    
+                <!-- Column 2: Information -->
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+    
+
+
+
+    
+                <!-- Column 3: Resources -->
+               
+
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <p>305-240-9671</p>
+                    <p><a href="mailto:info@company.com">info@company.com</a></p>
+                </div>
+
+
+                <!-- Column 4: Language and Copyright -->
+<div class="footer-column">
+    <span class="language-menu">
+       <a href="#" class="eng-btn">English<i class="fa-solid fa-caret-down" id="down-icon"></i></a>
+       <ul class="dropdown-menu">
+           <li><a href="#">English</a></li>
+           <li><a href="#">Spanish</a></li>
+           <li><a href="#">French</a></li>
+       </ul>
+    </span>
+ 
+    <!-- Copyright text right below language selection -->
+    <p class="copyright-text">Copyright © 2048 Topic Listing Center. All rights reserved.</p >
+    <p class="copyright-text">Design: <a href="https://templatemo.com" target="_blank" class="copyright-text">TemplateMo</a></p>
+ </div>  
+</div>
+</div>
+    </footer>
+    
+
+
+    
+
+
+
+
+
+
+    
+    <script src="js/script.js">
+       
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
